@@ -1,6 +1,6 @@
 <?php
 
-namespace Librinfo\CoreBundle\DoctrineExtensions;
+namespace Librinfo\DoctrinePgsqlBundle\DoctrineExtensions;
 
 use Doctrine\ORM\Query\SqlWalker;
 
