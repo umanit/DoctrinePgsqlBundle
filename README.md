@@ -2,7 +2,7 @@
 This bundle extends the Postgresql functionalities of Doctrine and Sonata projects
 
 Features
-============
+========
 
 For the moment, the only feature of this bundle is:
 
