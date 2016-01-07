@@ -1,0 +1,39 @@
+{
+    "name": "libre-informatique/doctrine-pgsql-bundle",
+    "type": "symfony-bundle",
+    "description": "This bundle extends the Postgresql functionalities of Doctrine and Sonata projects",
+    "require": {
+        "php": ">=5.3.9",
+        "symfony/symfony": "2.7.*",
+        "doctrine/orm": "dev-master",
+        "doctrine/doctrine-bundle": "dev-master",
+        "sonata-project/admin-bundle": "dev-master",
+        "sonata-project/doctrine-orm-admin-bundle": "dev-master"
+    },
+    "license": "GPL-3.0",
+    "keywords": [
+        "e-venement",
+        "libio",
+        "symfony",
+        "sonata",
+        "Postgresql"
+    ],
+    "homepage": "https://github.com/libre-informatique/SymfonyLibrinfoDoctrinePgsqlBundle",
+    "authors": [
+        {
+            "name": "Marcos BEZERRA de MENEZES",
+            "email": "marcos.bezerra@libre-informatique.fr"
+        },
+        {
+            "name": "Libre Informatique",
+            "homepage": "http://www.libre-informatique.fr/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Librinfo\\DoctrinePgsqlBundle\\": ""
+        }
+    },
+    "suggest": {
+    }
+}
