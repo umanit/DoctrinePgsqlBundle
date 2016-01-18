@@ -5,6 +5,10 @@ namespace Librinfo\DoctrinePgsqlBundle\Datagrid;
 use Sonata\DoctrineORMAdminBundle\Datagrid\ProxyQuery as BaseProxyQuery;
 use Doctrine\ORM\Query;
 
+/**
+ * @todo : a pull request was sent to make getFixedQueryBuilder() protected
+ *         if it is not accepted, we need to add a patch...
+ */
 class ProxyQuery extends BaseProxyQuery
 {
     /**
