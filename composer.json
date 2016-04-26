@@ -8,7 +8,7 @@
         "doctrine/orm": "dev-master",
         "doctrine/doctrine-bundle": "dev-master",
         "sonata-project/admin-bundle": "~2.3",
-        "sonata-project/doctrine-orm-admin-bundle": "dev-master"
+        "sonata-project/doctrine-orm-admin-bundle": "~2.3"
     },
     "license": "GPL-3.0",
     "keywords": [
