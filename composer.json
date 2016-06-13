@@ -5,8 +5,8 @@
     "require": {
         "php": ">=5.3.9",
         "symfony/symfony": "2.8.*",
-        "doctrine/orm": "dev-master",
-        "doctrine/doctrine-bundle": "dev-master",
+        "doctrine/orm": "^2.4.8",
+        "doctrine/doctrine-bundle": "~1.4",
         "sonata-project/admin-bundle": "~2.3",
         "sonata-project/doctrine-orm-admin-bundle": "~2.3"
     },
