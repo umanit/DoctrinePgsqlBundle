@@ -5,10 +5,10 @@
     "require": {
         "php": ">=5.3.9",
         "symfony/symfony": "2.8.*",
-        "doctrine/orm": "^2.4.8",
+        "doctrine/orm": "2.5.x-dev",
         "doctrine/doctrine-bundle": "~1.4",
-        "sonata-project/admin-bundle": "~2.3",
-        "sonata-project/doctrine-orm-admin-bundle": "~2.3"
+        "sonata-project/admin-bundle": "3.x-dev",
+        "sonata-project/doctrine-orm-admin-bundle": "3.x-dev",
     },
     "license": "GPL-3.0",
     "keywords": [
