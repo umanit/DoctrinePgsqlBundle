@@ -19,7 +19,6 @@ class Ilike extends FunctionNode
         $parser->match(Lexer::T_COMMA);
         $this->value = $parser->ArithmeticPrimary();
         $parser->match(Lexer::T_CLOSE_PARENTHESIS);
-        dump($this->field, $this->value);
     }
 
     public function getSql(\Doctrine\ORM\Query\SqlWalker $sqlWalker)
