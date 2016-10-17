@@ -24,5 +24,8 @@ class LibrinfoDoctrinePgsqlExtension extends Extension
 
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
+
+        $xmlloader = new Loader\XmlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
+        $xmlloader->load('doctrine_orm.xml');
     }
 }
