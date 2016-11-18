@@ -84,6 +84,14 @@ class ProxyQuery extends BaseProxyQuery
             }
             $idxSelect .= ($idxSelect !== '' ? ', ' : '').$idSelect;
         }
+        
+        foreach($queryBuilderId->getDqlParts()['orderBy'] as $sort){
+                
+            $field = chop($sort->getParts()[0], 'ASC');
+            $field = chop($field, 'DESC');
+            $idxSelect .= ', (' . $field . ')';
+        }
+            
         $queryBuilderId->resetDQLPart('select');
         $queryBuilderId->add('select', 'DISTINCT '.$idxSelect);
 
