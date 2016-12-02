@@ -1,4 +1,4 @@
-# SymfonyBlastDoctrinePgsqlBundle
+# BlastDoctrinePgsqlBundle
 This bundle extends the Postgresql functionalities of Doctrine and Sonata projects
 
 Features
