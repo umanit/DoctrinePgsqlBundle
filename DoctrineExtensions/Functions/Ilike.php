@@ -1,6 +1,6 @@
 <?php
 
-namespace Librinfo\DoctrinePgsqlBundle\DoctrineExtensions\Functions;
+namespace Blast\DoctrinePgsqlBundle\DoctrineExtensions\Functions;
 
 use Doctrine\ORM\Query\AST\Functions\FunctionNode,
     Doctrine\ORM\Query\Lexer;

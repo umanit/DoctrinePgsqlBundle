@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Librinfo\DoctrinePgsqlBundle\Datagrid;
+namespace Blast\DoctrinePgsqlBundle\Datagrid;
 
 use Doctrine\ORM\Query;
 use Sonata\DoctrineORMAdminBundle\Datagrid\Pager as BasePager;
@@ -33,7 +33,7 @@ class Pager extends BasePager
 
         // Use ILIKE instead of LIKE for Postgresql
         if ( 'pdo_pgsql' == $countQuery->getEntityManager()->getConnection()->getDriver()->getName() )
-            $query->setHint(Query::HINT_CUSTOM_OUTPUT_WALKER, 'Librinfo\DoctrinePgsqlBundle\DoctrineExtensions\LibrinfoWalker');
+            $query->setHint(Query::HINT_CUSTOM_OUTPUT_WALKER, 'Blast\DoctrinePgsqlBundle\DoctrineExtensions\LibrinfoWalker');
 
         return $query->getSingleScalarResult();
     }

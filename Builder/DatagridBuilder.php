@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Librinfo\DoctrinePgsqlBundle\Builder;
+namespace Blast\DoctrinePgsqlBundle\Builder;
 
-use Librinfo\DoctrinePgsqlBundle\Datagrid\Pager;
+use Blast\DoctrinePgsqlBundle\Datagrid\Pager;
 use Sonata\AdminBundle\Datagrid\PagerInterface;
 use Sonata\AdminBundle\Datagrid\SimplePager;
 use Sonata\DoctrineORMAdminBundle\Builder\DatagridBuilder as BaseDatagridBuidler;

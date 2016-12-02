@@ -1,4 +1,4 @@
 services:
     sonata.admin.manager.orm:
-        class: Librinfo\DoctrinePgsqlBundle\Model\ModelManager
+        class: Blast\DoctrinePgsqlBundle\Model\ModelManager
         arguments: [@doctrine]

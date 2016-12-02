@@ -1,6 +1,6 @@
 <?php
 
-namespace Librinfo\DoctrinePgsqlBundle\DependencyInjection;
+namespace Blast\DoctrinePgsqlBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -18,7 +18,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('librinfo_doctrine_pgsql');
+        $rootNode = $treeBuilder->root('blast_doctrine_pgsql');
 
         // Here you should define the parameters that are allowed to
         // configure your bundle. See the documentation linked above for

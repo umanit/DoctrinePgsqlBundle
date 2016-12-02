@@ -1,5 +1,5 @@
 {
-    "name": "libre-informatique/doctrine-pgsql-bundle",
+    "name": "blast-project/doctrine-pgsql-bundle",
     "type": "symfony-bundle",
     "description": "This bundle extends the Postgresql functionalities of Doctrine and Sonata projects",
     "require": {
@@ -12,13 +12,13 @@
     },
     "license": "GPL-3.0",
     "keywords": [
-        "e-venement",
-        "libio",
+        "blast",
+        "doctrine",
         "symfony",
         "sonata",
         "Postgresql"
     ],
-    "homepage": "https://github.com/libre-informatique/SymfonyLibrinfoDoctrinePgsqlBundle",
+    "homepage": "https://github.com/blast-project/DoctrinePgsqlBundle",
     "authors": [
         {
             "name": "Marcos BEZERRA de MENEZES",
@@ -31,7 +31,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Librinfo\\DoctrinePgsqlBundle\\": ""
+            "Blast\\DoctrinePgsqlBundle\\": ""
         }
     },
     "suggest": {

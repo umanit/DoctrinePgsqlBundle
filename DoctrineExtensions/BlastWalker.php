@@ -1,10 +1,10 @@
 <?php
 
-namespace Librinfo\DoctrinePgsqlBundle\DoctrineExtensions;
+namespace Blast\DoctrinePgsqlBundle\DoctrineExtensions;
 
 use Doctrine\ORM\Query\SqlWalker;
 
-class LibrinfoWalker extends SqlWalker
+class BlastWalker extends SqlWalker
 {
      /**
      * Walks down a SelectClause AST node, thereby generating the appropriate SQL.

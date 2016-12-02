@@ -1,9 +1,9 @@
 <?php
 
-namespace Librinfo\DoctrinePgsqlBundle\Model;
+namespace Blast\DoctrinePgsqlBundle\Model;
 
 use Sonata\DoctrineORMAdminBundle\Model\ModelManager as BaseModelManager;
-use Librinfo\DoctrinePgsqlBundle\Datagrid\ProxyQuery;
+use Blast\DoctrinePgsqlBundle\Datagrid\ProxyQuery;
 
 class ModelManager extends BaseModelManager
 {
