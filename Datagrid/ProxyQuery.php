@@ -36,7 +36,7 @@ class ProxyQuery extends BaseProxyQuery
 
         // Use ILIKE instead of LIKE for Postgresql
         if ( 'pdo_pgsql' == $queryBuilder->getEntityManager()->getConnection()->getDriver()->getName() )
-            $this->setHint(Query::HINT_CUSTOM_OUTPUT_WALKER, 'Blast\DoctrinePgsqlBundle\DoctrineExtensions\LibrinfoWalker');
+            $this->setHint(Query::HINT_CUSTOM_OUTPUT_WALKER, 'Blast\DoctrinePgsqlBundle\DoctrineExtensions\BlastWalker');
 
         $query = $this->getFixedQueryBuilder($queryBuilder)->getQuery();
 
@@ -113,7 +113,7 @@ class ProxyQuery extends BaseProxyQuery
 
         // Use ILIKE instead of LIKE for Postgresql
         if ( 'pdo_pgsql' == $queryBuilderId->getEntityManager()->getConnection()->getDriver()->getName() )
-            $this->setHint(Query::HINT_CUSTOM_OUTPUT_WALKER, 'Blast\DoctrinePgsqlBundle\DoctrineExtensions\LibrinfoWalker');
+            $this->setHint(Query::HINT_CUSTOM_OUTPUT_WALKER, 'Blast\DoctrinePgsqlBundle\DoctrineExtensions\BlastWalker');
 
         $query = $queryBuilderId->getQuery();
         foreach( $this->_hints as $name => $value )

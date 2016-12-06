@@ -16,7 +16,7 @@ class BlastWalker extends SqlWalker
     {
         $sql = parent::walkSelectClause($selectClause);
 
-        if ($this->getQuery()->getHint('librinfoWalker.noIlike') === false) {
+        if ($this->getQuery()->getHint('blastWalker.noIlike') === false) {
                 $sql = str_replace('LIKE', 'ILIKE', $sql);
         }
 
@@ -33,7 +33,7 @@ class BlastWalker extends SqlWalker
     {
         $sql = parent::walkWhereClause($whereClause);
 
-        if ($this->getQuery()->getHint('librinfoWalker.noIlike') === false) {
+        if ($this->getQuery()->getHint('blastWalker.noIlike') === false) {
                 $sql = str_replace('LIKE', 'ILIKE', $sql);
         }
         return $sql;

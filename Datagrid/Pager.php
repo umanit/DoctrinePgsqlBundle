@@ -33,7 +33,7 @@ class Pager extends BasePager
 
         // Use ILIKE instead of LIKE for Postgresql
         if ( 'pdo_pgsql' == $countQuery->getEntityManager()->getConnection()->getDriver()->getName() )
-            $query->setHint(Query::HINT_CUSTOM_OUTPUT_WALKER, 'Blast\DoctrinePgsqlBundle\DoctrineExtensions\LibrinfoWalker');
+            $query->setHint(Query::HINT_CUSTOM_OUTPUT_WALKER, 'Blast\DoctrinePgsqlBundle\DoctrineExtensions\BlastWalker');
 
         return $query->getSingleScalarResult();
     }
