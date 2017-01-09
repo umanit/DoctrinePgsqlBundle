@@ -1,12 +1,12 @@
 {
-    "name": "blast-project/doctrine-pgsql-bundle",
+    "name": "umanit/doctrine-pgsql-bundle",
     "type": "symfony-bundle",
     "description": "This bundle extends the Postgresql functionalities of Doctrine and Sonata projects",
     "require": {
         "php": ">=5.3.9",
-        "symfony/symfony": "2.8.*",
-        "doctrine/orm": "^2.4.8,<2.5",
-        "doctrine/doctrine-bundle": "dev-master",
+        "symfony/symfony": ^2.8",
+        "doctrine/orm": "^2.4.8",
+        "doctrine/doctrine-bundle": "^1.6",
         "sonata-project/admin-bundle": "^3.4",
         "sonata-project/doctrine-orm-admin-bundle": "^3.0"
     },
